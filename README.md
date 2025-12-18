@@ -39,6 +39,7 @@ Patches
 | [sc-55_v120_mod.bdf](./patches/sc-55_v120_mod.bdf)       | SC-55 Ver.1.20     | `22ce6ca59e6332143b335525e81fab501ea6fccce4b7e2f3bfc2cc8bf6612ff6` |
 | [sc-55_v121_mod.bdf](./patches/sc-55_v121_mod.bdf)       | SC-55 Ver.1.21     | `effc6132d68f7e300aaef915ccdd08aba93606c22d23e580daf9ea6617913af1` |
 | [sc-55_v200_mod.bdf](./patches/sc-55_v200_mod.bdf)       | SC-55 Ver.2.00     | `f5dac35d450ab986570a209dff3816eec75cee669e161f54b51224b467dd0bcc` |
+| [sc-155_v100_mod.bdf](./patches/sc-155_v100_mod.bdf)     | SC-155 Ver.1.00    | `ceb7b9d3d9d264efe5dc3ba992b94f3be35eb6d0451abc574b6f6b5dc3db237b` |
 | [sc-33_v210_mod.bdf](./patches/sc-33_v210_mod.bdf)       | SC-33 Ver.2.10     | `b78f16c0fbee48bc465e05551c675f44ec0f5a5dae908d167459f7922c248de9` |
 | [sd-35_v100_mod.bdf](./patches/sd-35_v100_mod.bdf)       | SD-35 Ver.1.00     | `602bd91bf8cfc1873aefad57f1c77063f09bd85815c08577b42e3254354dd0de` |
 | [sc-55mk2_v100_mod.bdf](./patches/sc-55mk2_v100_mod.bdf) | SC-55mkII Ver.1.00 | `cb1b184648284ea024b24ade51eac2f25c3684b3c40f41a658595f124f93b688` |
