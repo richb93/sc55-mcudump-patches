@@ -27,6 +27,8 @@ How to Use
 		* You can save in ".txt" (hex text), ".syx" (raw binary), or ".mid" (Standard MIDI File) format.
 	5. Use the [sysex2bin.py](./tools/sysex2bin.py) utility to convert bulk dump messages to a binary file.
 		* e.g. `python sysex2bin.py bulkdump.mid sc-55_mcu.bin`
+* Device specific notes
+    * The GSS-1 chipset is found on the GSE board in the RA-90 Realtime Arranger. The MIDI TX connection from the GSE board is not connected to the MIDI out of the RA-90, so modification is required to dump the MCU with this method. The easiest way of achieving this is by connecting the MIDI TX output of the GSE to the MIDI output connector. This can be done by using a screwdriver/blade/pin to push pin 6 out of the connector that connects to CN2 of the front MIDI board, doing the same for pin 6 on CN8 on the mainboard. The exposed pins can be bridged together. Once the dump is complete, the pins can then be pushed back into the connector to restore the original MIDI out functionality.
 
 
 Patches
@@ -34,6 +36,7 @@ Patches
 
 | File Name                                                | Model and Version  | SHA-256 (Original external firmware ROM)                           |
 |----------------------------------------------------------|--------------------|--------------------------------------------------------------------|
+| [gss-1_v100_mod.bdf](./patches/gss-1_v100_mod.bdf)       | GSS-1 Ver.1.00     | `4e8e3e7038b3ee4fcf0c55b4097ba87d7565d2427d18e2ab540d3d853c051ec6` |
 | [sc-55_v100_mod.bdf](./patches/sc-55_v100_mod.bdf)       | SC-55 Ver.1.00     | `014e2e21ea30de7a1e4f1cdea14dd9a719960535e257a9e40e98dbb1a5870226` |
 | [sc-55_v110_mod.bdf](./patches/sc-55_v110_mod.bdf)       | SC-55 Ver.1.10     | `ec064d6c4fc70ec990911089d966043cb819fba0e26e6f6afdd0a05e5301b91b` |
 | [sc-55_v120_mod.bdf](./patches/sc-55_v120_mod.bdf)       | SC-55 Ver.1.20     | `22ce6ca59e6332143b335525e81fab501ea6fccce4b7e2f3bfc2cc8bf6612ff6` |
